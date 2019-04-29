@@ -2,16 +2,17 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>products</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style>
 
         table {
-            border-collapse:collapse;
-            width:400px;
-            margin:20px auto;
+            border-collapse: collapse;
+            width: 400px;
+            margin: 20px auto;
         }
-        td,th{
-            border:1px solid gray;
+
+        td, th {
+            border: 1px solid gray;
         }
 
     </style>
@@ -34,6 +35,12 @@
             <td th:text="${p.price}"></td>
         </tr>
         </tbody>
+
+        <tr>
+            <td align="center" colspan="3">
+                <p th:text="${version}"> springcloud version unknown</p>
+            </td>
+        </tr>
     </table>
 </div>
 
