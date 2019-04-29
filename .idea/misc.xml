@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/product-data-service/pom.xml" />
         <option value="$PROJECT_DIR$/product-view-service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/product-view-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/product-data-service/product-data-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" />
